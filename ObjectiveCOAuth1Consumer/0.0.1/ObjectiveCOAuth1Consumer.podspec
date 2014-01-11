@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/tracktorbeam/ObjectiveCOAuth1Consumer.git", :tag => "0.0.1" }
   s.source_files  = 'ObjectiveCOAuth1Consumer', 'ObjectiveCOAuth1Consumer/Crypto'
-  s.exclude_files = 'Classes/Exclude'
-  s.public_header_files = 'ObjectiveCOAuth1Consumer/*.h'
+  s.public_header_files = 'ObjectiveCOAuth1Consumer/*.h' 'ObjectiveCOAuth1Consumer/Crypto/*.h'
   s.requires_arc = false
 end
