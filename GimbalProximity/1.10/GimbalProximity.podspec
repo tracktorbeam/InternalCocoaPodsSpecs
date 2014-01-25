@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'FYX', 'Common', 'NetworkServices', 'CoreBluetooth', 'CoreLocation', 'CoreData', 'Security'
   s.library   = 'z'
   s.requires_arc = true
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/GimbalProximity"' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/GimbalProximity/gimbalsdk_1.10_ios/Frameworks/"' }
 end
